@@ -1,6 +1,6 @@
 variable "instance_names" {
     type = list(string)
-    default = ["mysql", "backend", "frontend"]
+    default = ["mysql1", "backend1", "frontend1"]
 }
 
 variable "common_tags" {
