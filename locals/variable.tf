@@ -1,4 +1,4 @@
-variable "instance_names" {
+variable "instance_names" {    #functions such as count.index dont work for locals
   type    = list(string)
   default = ["mysql1", "backend1", "frontend1"]
 }
